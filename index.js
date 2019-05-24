@@ -5,6 +5,7 @@ const restify = require('restify'),
         name: "api server"
       });
 
+
 server.use(restify.plugins.queryParser());
 let geter = (req, res, next) => {
   if (!req.query.name)

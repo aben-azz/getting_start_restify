@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "restify": "latest"
+  },
+  "scripts": {
+    "start": "nodemon index.s"
+  },
+  "description": "jsp",
+  "main": "index.js",
+  "name": "ui",
+  "version": "0.0.1"
+}
